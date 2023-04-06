@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: #ae9cae;
+}
+
+.container {
+    background-color: #fff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61,0.2); 
+}
+.search-box{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-box input{ 
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cae;
+    font-size: 16px;
+}
+
+.search-box button{ 
+    padding: 15px 0 ;
+    width: 25%;
+    background-color: #ae9cae;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.result{ 
+    position: relative;
+}
+.result h3{ 
+    font-size: 30px;
+    color: #3b213b;
+}
+
+.result .word{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button{ 
+    background-color: transparent;
+    color: #ae9cae;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.result .details { 
+    display: flex;
+    gap: 10px;
+    color: #925892;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning{ 
+    color: #575757;
+}
+.word-example{ 
+    color: #575757;
+    font-style: italic;
+    border-left: 5px solid #ae9cae;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
