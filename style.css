@@ -12,6 +12,13 @@ body {
     background-color: #ae9cae;
 }
 
+#heading{ 
+    text-align: center;
+    margin-top: 150px;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+}
+
 .container {
     background-color: #fff;
     width: 90vmin;
